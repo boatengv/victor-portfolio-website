@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/react-gh-pages/static/css/main.5c27fa38.css",
-    "main.js": "/react-gh-pages/static/js/main.23d2b806.js",
-    "static/js/453.0fd0d675.chunk.js": "/react-gh-pages/static/js/453.0fd0d675.chunk.js",
-    "static/media/new-future-technology-concept-abstract-background-business-solution-54350985.webp": "/react-gh-pages/static/media/new-future-technology-concept-abstract-background-business-solution-54350985.1aedfa57b1bf7248cfdc.webp",
-    "index.html": "/react-gh-pages/index.html",
-    "main.5c27fa38.css.map": "/react-gh-pages/static/css/main.5c27fa38.css.map",
-    "main.23d2b806.js.map": "/react-gh-pages/static/js/main.23d2b806.js.map",
-    "453.0fd0d675.chunk.js.map": "/react-gh-pages/static/js/453.0fd0d675.chunk.js.map"
+    "main.css": "/victor-portfolio-website/static/css/main.2126b28e.css",
+    "main.js": "/victor-portfolio-website/static/js/main.796ae3af.js",
+    "static/js/453.0fd0d675.chunk.js": "/victor-portfolio-website/static/js/453.0fd0d675.chunk.js",
+    "static/media/new-future-technology-concept-abstract-background-business-solution-54350985.webp": "/victor-portfolio-website/static/media/new-future-technology-concept-abstract-background-business-solution-54350985.1aedfa57b1bf7248cfdc.webp",
+    "index.html": "/victor-portfolio-website/index.html",
+    "main.2126b28e.css.map": "/victor-portfolio-website/static/css/main.2126b28e.css.map",
+    "main.796ae3af.js.map": "/victor-portfolio-website/static/js/main.796ae3af.js.map",
+    "453.0fd0d675.chunk.js.map": "/victor-portfolio-website/static/js/453.0fd0d675.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5c27fa38.css",
-    "static/js/main.23d2b806.js"
+    "static/css/main.2126b28e.css",
+    "static/js/main.796ae3af.js"
   ]
 }
