@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/victor-portfolio-website/static/css/main.2126b28e.css",
-    "main.js": "/victor-portfolio-website/static/js/main.0f28928b.js",
+    "main.css": "/victor-portfolio-website/static/css/main.f073852b.css",
+    "main.js": "/victor-portfolio-website/static/js/main.f8f6a750.js",
     "static/js/453.0fd0d675.chunk.js": "/victor-portfolio-website/static/js/453.0fd0d675.chunk.js",
     "static/media/new-future-technology-concept-abstract-background-business-solution-54350985.webp": "/victor-portfolio-website/static/media/new-future-technology-concept-abstract-background-business-solution-54350985.1aedfa57b1bf7248cfdc.webp",
     "index.html": "/victor-portfolio-website/index.html",
-    "main.2126b28e.css.map": "/victor-portfolio-website/static/css/main.2126b28e.css.map",
-    "main.0f28928b.js.map": "/victor-portfolio-website/static/js/main.0f28928b.js.map",
+    "main.f073852b.css.map": "/victor-portfolio-website/static/css/main.f073852b.css.map",
+    "main.f8f6a750.js.map": "/victor-portfolio-website/static/js/main.f8f6a750.js.map",
     "453.0fd0d675.chunk.js.map": "/victor-portfolio-website/static/js/453.0fd0d675.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2126b28e.css",
-    "static/js/main.0f28928b.js"
+    "static/css/main.f073852b.css",
+    "static/js/main.f8f6a750.js"
   ]
 }
