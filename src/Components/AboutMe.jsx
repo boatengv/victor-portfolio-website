@@ -1,7 +1,7 @@
 import Avatar from '@mui/material/Avatar';
 import Button from '@mui/material/Button';
 import { Slide } from '@mui/material';
-import {useStore} from './store'
+import { useStore } from '../store';
 import React from 'react';
 
 

@@ -1,16 +1,15 @@
-import { Slide } from '@mui/material';
 import React from 'react';
-import Timeline from '@material-ui/lab/Timeline';
-import TimelineItem from '@material-ui/lab/TimelineItem';
-import TimelineSeparator from '@material-ui/lab/TimelineSeparator';
-import TimelineConnector from '@material-ui/lab/TimelineConnector';
-import TimelineContent from '@material-ui/lab/TimelineContent';
-import TimelineDot from '@material-ui/lab/TimelineDot';
-import {useStore} from './store'
+import { Slide } from '@mui/material';
+import { useStore } from '../store';
+import Timeline from '@mui/lab/Timeline';
+import { TimeBox } from './TimeBox';
+import { timeLineData } from '../Data/timeLineData';
 
 export const Journey = () => {
     
     const current = useStore((state) => state.current)
+
+      console.log(timeLineData);
 
     return(
         <Slide 
@@ -20,38 +19,20 @@ export const Journey = () => {
             unmountOnExit
             timeout={500}
         >
-            <div className="bg-white flex items-center border-b-4 border-r-4 border-black rounded-br-3xl w-[1000px] h-[640px]">
-            <Timeline align="alternate">
-      <TimelineItem>
-        <TimelineSeparator>
-          <TimelineDot />
-          <TimelineConnector />
-        </TimelineSeparator>
-        <TimelineContent>Eat</TimelineContent>
-      </TimelineItem>
-      <TimelineItem>
-        <TimelineSeparator>
-          <TimelineDot />
-          <TimelineConnector />
-        </TimelineSeparator>
-        <TimelineContent>Code</TimelineContent>
-      </TimelineItem>
-      <TimelineItem>
-        <TimelineSeparator>
-          <TimelineDot />
-          <TimelineConnector />
-        </TimelineSeparator>
-        <TimelineContent>Sleep</TimelineContent>
-      </TimelineItem>
-      <TimelineItem>
-        <TimelineSeparator>
-          <TimelineDot />
-        </TimelineSeparator>
-        <TimelineContent>Repeat</TimelineContent>
-      </TimelineItem>
-    </Timeline>
-            </div>
+          <div className="bg-white flex items-center border-2 border-black w-[1000px] h-[720px] overflow-hidden overflow-y-scroll">
+            <Timeline position="alternate">
+              {timeLineData.map((item, index) => (
+                <TimeBox
+                  key={index}
+                  isLeft={index % 2 === 0}
+                  time={item.time}
+                  jobTitle={item.jobTitle}
+                  company={item.company}
+                  jobDescription={item.jobDescription}
+                />
+              ))}
+            </Timeline>
+          </div>
         </Slide>
-    )
+    );
 }
-

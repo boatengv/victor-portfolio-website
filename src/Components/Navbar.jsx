@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { useStore } from './store';
+import { useStore } from '../store';
 import { FaLinkedin } from "react-icons/fa";
 
 export const Navbar = () => {
@@ -52,7 +52,7 @@ export const Navbar = () => {
                     </div>        
                 </div>
             </div>
-            <a className='absolute top-1 right-4 cursor-pointer' href={`${process.env.PUBLIC_URL}/Victor%20Boateng%20CV.pdf`} target="_blank" rel="noopener noreferrer">
+            <a className='absolute top-1 right-4 cursor-pointer hover:bg-black hover:text-white' href={`${process.env.PUBLIC_URL}/Victor%20Boateng%20CV.pdf`} target="_blank" rel="noopener noreferrer">
                 <h1 className='text-2xl p-2 border-2 border-black'>Download CV</h1>
             </a>
         </div> 

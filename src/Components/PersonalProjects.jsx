@@ -1,5 +1,5 @@
 import { Slide } from '@mui/material';
-import {useStore} from './store'
+import { useStore } from '../store';
 
 export const PersonalProjects = () => {
 
