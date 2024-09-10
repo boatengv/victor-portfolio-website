@@ -19,8 +19,8 @@ export const Journey = () => {
             unmountOnExit
             timeout={500}
         >
-          <div className="bg-white flex items-center border-2 border-black w-[1000px] h-[720px] overflow-hidden overflow-y-scroll">
-            <Timeline position="alternate">
+          <div className="bg-white flex items-start border-2 border-black w-[1000px] h-[720px] overflow-hidden overflow-y-scroll">
+            <Timeline position="alternate" className='mt'>
               {timeLineData.map((item, index) => (
                 <TimeBox
                   key={index}

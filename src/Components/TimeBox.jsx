@@ -17,24 +17,28 @@ export const TimeBox = (props) => {
             sx={{ m: 'auto 0' }}
             variant="body2"
             color="text.secondary"
+            className=' text-center'
             >
               {props.time}
             </TimelineOppositeContent>
             <TimelineSeparator>
-            <TimelineConnector />
-            <TimelineDot color="primary">
-                <LaptopMacIcon />
-            </TimelineDot>
-            <TimelineConnector />
+                <TimelineConnector />
+                    <TimelineDot color="primary">
+                        <LaptopMacIcon />
+                    </TimelineDot>
+                <TimelineConnector />
             </TimelineSeparator>
             <TimelineContent sx={{ py: '12px', px: 2 }}>
-            <Typography variant="h6" component="span">
-                {props.jobTitle}
-            </Typography>
-            <Typography variant="h6" component="span">
-                ,{' '+props.company}
-            </Typography>
-            <Typography>{props.jobDescription}</Typography>
+                <Typography variant="h5" component="span">
+                    {props.jobTitle}
+                </Typography>
+                <br></br>
+                <Typography variant="h6" component="span">
+                    {props.company}
+                </Typography>
+                <Typography>{
+                    props.jobDescription}
+                </Typography>
             </TimelineContent>
         </TimelineItem>
     )

@@ -11,7 +11,7 @@ function App() {
   return (
     <div className='w-full h-dvh'>
       <Navbar/>
-        <div className="bg-[url('../public/new-future-technology-concept-abstract-background-business-solution-54350985.webp')] w-full flex justify-center items-center" style={{height: '920px'}}> 
+        <div className="bg-[url('../public/new-future-technology-concept-abstract-background-business-solution-54350985.webp')] w-full h-[920px] flex justify-center items-center" > 
           <AboutMe/>
           <HobbiesInterest/>
           <Journey/>
