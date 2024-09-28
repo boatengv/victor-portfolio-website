@@ -19,7 +19,7 @@ export const Journey = () => {
             unmountOnExit
             timeout={500}
         >
-          <div className="bg-white flex items-start border-2 border-black w-[1000px] h-[720px] overflow-hidden overflow-y-scroll">
+          <div className="bg-white flex items-start border-2 border-black w-[1240px] h-[720px] overflow-hidden overflow-y-scroll">
             <Timeline position="alternate" className='mt'>
               {timeLineData.map((item, index) => (
                 <TimeBox
@@ -29,6 +29,7 @@ export const Journey = () => {
                   jobTitle={item.jobTitle}
                   company={item.company}
                   jobDescription={item.jobDescription}
+                  skills={item.skills}
                 />
               ))}
             </Timeline>

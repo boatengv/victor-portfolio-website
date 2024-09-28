@@ -6,8 +6,6 @@ import TimelineContent from '@mui/lab/TimelineContent';
 import TimelineOppositeContent from '@mui/lab/TimelineOppositeContent';
 import TimelineDot from '@mui/lab/TimelineDot';
 import LaptopMacIcon from '@mui/icons-material/LaptopMac';
-import Typography from '@mui/material/Typography';
-
 
 export const TimeBox = (props) => { 
     
@@ -29,16 +27,14 @@ export const TimeBox = (props) => {
                 <TimelineConnector />
             </TimelineSeparator>
             <TimelineContent sx={{ py: '12px', px: 2 }}>
-                <Typography variant="h5" component="span">
-                    {props.jobTitle}
-                </Typography>
-                <br></br>
-                <Typography variant="h6" component="span">
-                    {props.company}
-                </Typography>
-                <Typography>{
-                    props.jobDescription}
-                </Typography>
+                <h1 className='text-3xl text-left'><b>{props.jobTitle}</b></h1>
+                <h2 className='text-2xl text-left'> {props.company}</h2>
+                {props.jobDescription.map((item) => (     
+                    <ul className='list-disc'>
+                        <li className='text-left'>{item}</li>
+                    </ul>
+                ))}
+                <p className='mt-2 text-left'><b>Skills: {props.skills} </b></p>
             </TimelineContent>
         </TimelineItem>
     )
